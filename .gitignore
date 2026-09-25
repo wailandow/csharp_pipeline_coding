@@ -1,0 +1,62 @@
+﻿# --- Секреты и конфиденциальные данные ---
+.env
+*.env
+!.env.example
+
+# --- Templates ---
+projects/strategy_selector/templates/
+
+# --- Config ---
+config.yaml
+
+# --- База данных / рантайм-артефакты ---
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# --- Логи ---
+logs/*
+!logs/.gitkeep
+data/
+logs/
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Виртуальные окружения
+.venv/
+venv/
+env/
+ENV/
+
+# Сборка / дистрибутив
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Тесты и покрытие
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+
+# --- Инструменты и IDE ---
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# --- ОС ---
+.DS_Store
+Thumbs.db
+
+# --- Прочее ---
+*.bak
+*.tmp
